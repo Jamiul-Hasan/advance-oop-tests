@@ -81,6 +81,39 @@ Create a frontend application with user interface.
 ### Step 3: Implement Your Application
 Follow the requirements to build your application.
 
+## 🏃 Running the app (local / Codespaces)
+
+Quick commands to run both services and verify the CRUD flow locally:
+
+1. Start both services (backend + frontend):
+
+```bash
+# from repository root
+make dev
+```
+
+2. Stop services:
+
+```bash
+make stop
+```
+
+3. View logs:
+
+```bash
+make logs
+```
+
+4. Run the automated E2E test (Playwright):
+
+```bash
+make e2e
+```
+
+Notes:
+- The start script writes logs to `logs/backend.log` and `logs/frontend.log`.
+- If you run inside GitHub Codespaces, open forwarded ports `8080` and `5173` to view the backend and frontend respectively.
+
 ---
 
 ## 📂 Expected Project Structure
