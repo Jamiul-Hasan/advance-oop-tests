@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 type Item = { id?: number; title: string; description?: string }
 
-const API = 'http://localhost:8080/api/items'
+const API = '/api/items'
 
 export default function App() {
   const [items, setItems] = useState<Item[]>([])
