@@ -1,0 +1,19 @@
+# Java
+/backend/target/
+*.log
+*.pid
+
+# Node
+/frontend/node_modules/
+npm-debug.log*
+package-lock.json
+
+# Devcontainer
+/.devcontainer/.cache
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
